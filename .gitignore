@@ -39,7 +39,6 @@ out/
 ### Kotlin ###
 .kotlin
 /.gitattributes
-/src/main/kotlin/com/keylane/advent/AdventApplication.kt
 /src/test/kotlin/com/keylane/advent/AdventApplicationTests.kt
 /src/main/resources/application.properties
 /build.gradle.kts

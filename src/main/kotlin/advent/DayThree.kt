@@ -2,7 +2,7 @@
  * Copyright (c) Keylane B.V. 2001 - 2024
  */
 
-package com.keylane.advent
+package advent
 
 class DayThree(lines: List<String>) {
     private val mulRegex: Regex = Regex("mul\\(\\d{1,3},\\d{1,3}\\)")

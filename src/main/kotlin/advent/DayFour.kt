@@ -2,7 +2,7 @@
  * Copyright (c) Keylane B.V. 2001 - 2024
  */
 
-package com.keylane.advent
+package advent
 
 class DayFour(lines: List<String>) {
     private val puzzleInput: List<String> = lines

@@ -2,7 +2,7 @@
  * Copyright (c) Keylane B.V. 2001 - 2024
  */
 
-package com.keylane.advent
+package advent
 
 class DayTwo(lines: List<String>) {
     private var numberList: List<List<Int>> = lines.map { it.split(" ").map { it.toInt() } }

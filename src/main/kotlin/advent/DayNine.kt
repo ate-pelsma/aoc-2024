@@ -2,7 +2,7 @@
  * Copyright (c) Keylane B.V. 2001 - 2024
  */
 
-package com.keylane.advent
+package advent
 
 import org.springframework.util.StringUtils
 
