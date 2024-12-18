@@ -3,7 +3,6 @@ plugins {
     kotlin("plugin.spring") version "1.9.25"
 }
 
-group = "com.keylane"
 version = "0.0.1-SNAPSHOT"
 
 java {
