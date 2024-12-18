@@ -1,0 +1,1 @@
+AoC specifically asks not to upload any input data. Check their website if you would like to obtain it.
