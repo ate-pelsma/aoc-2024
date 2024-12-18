@@ -4,7 +4,7 @@
 
 package advent
 
-class DaySeven(lines: List<String>) {
+class Day7(lines: List<String>) {
     private val lines = lines
 
     init {

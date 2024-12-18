@@ -4,7 +4,7 @@
 
 package advent
 
-class DayFive(lines: List<String>) {
+class Day5(lines: List<String>) {
     private val splitIndex = lines.indexOfFirst { it.isBlank() }
     private val orderRulesList = lines.subList(0, splitIndex)
         .filter { it.isNotBlank() }

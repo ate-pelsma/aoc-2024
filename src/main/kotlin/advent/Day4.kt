@@ -4,7 +4,7 @@
 
 package advent
 
-class DayFour(lines: List<String>) {
+class Day4(lines: List<String>) {
     private val puzzleInput: List<String> = lines
 
     init {

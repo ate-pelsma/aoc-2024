@@ -4,7 +4,7 @@
 
 package advent
 
-class DayThree(lines: List<String>) {
+class Day3(lines: List<String>) {
     private val mulRegex: Regex = Regex("mul\\(\\d{1,3},\\d{1,3}\\)")
     private val numberRegex: Regex = Regex("\\d{1,3}")
     private val enableRegex: Regex = Regex("mul\\(\\d{1,3},\\d{1,3}\\)|do\\(\\)|don't\\(\\)")

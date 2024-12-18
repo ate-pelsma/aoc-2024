@@ -4,7 +4,7 @@
 
 package advent
 
-class DaySix(lines: List<String>) {
+class Day6(lines: List<String>) {
     private val maxRowIndex = lines.size - 1
     private val maxColIndex = lines[0].length - 1
     private val arrowRegex: Regex = Regex("[\\^>v<]")

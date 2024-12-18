@@ -4,7 +4,7 @@
 
 package advent
 
-class DayTen(lines: List<String>) {
+class Day10(lines: List<String>) {
 
     class GridPoint(val x: Int, val y: Int, val height: Int, val isTrailHead: Boolean) {
         var isIntersection = false

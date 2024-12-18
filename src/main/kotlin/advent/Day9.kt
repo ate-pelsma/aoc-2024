@@ -4,9 +4,7 @@
 
 package advent
 
-import org.springframework.util.StringUtils
-
-class DayNine(lines: List<String>) {
+class Day9(lines: List<String>) {
     private val fileBlockList = mutableListOf<FileBlock>()
     private val wholeFileBlockList = mutableListOf<FileBlock>()
 

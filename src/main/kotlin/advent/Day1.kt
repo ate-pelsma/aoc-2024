@@ -6,7 +6,7 @@ package advent
 
 import kotlin.math.absoluteValue
 
-class DayOne(lines: List<String>) {
+class Day1(lines: List<String>) {
     private val firstList = mutableListOf<Int>()
     private val secondList = mutableListOf<Int>()
 

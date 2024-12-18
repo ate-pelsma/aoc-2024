@@ -4,7 +4,7 @@
 
 package advent
 
-class DayFifteen(lines: List<String>) {
+class Day15(lines: List<String>) {
 
     companion object {
         lateinit var warehouseState: MutableList<WarehouseObject>

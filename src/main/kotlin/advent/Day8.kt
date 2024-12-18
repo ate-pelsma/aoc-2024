@@ -4,9 +4,7 @@
 
 package advent
 
-import kotlin.math.absoluteValue
-
-class DayEight(lines: List<String>) {
+class Day8(lines: List<String>) {
     private val regex = Regex("[a-z]|\\d|[A-Z]")
     private val antennaPoints = lines.flatMapIndexed { index, line -> regex.findAll(line).map { AntennaPoint(it.value, index, it.range.first) } }
     private val antinodePoints = mutableSetOf<Pair<Int, Int>>()

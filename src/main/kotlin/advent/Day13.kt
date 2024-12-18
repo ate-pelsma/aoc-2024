@@ -1,4 +1,4 @@
-class DayThirteen(lines: List<String>) {
+class Day13(lines: List<String>) {
     val clawMachines = lines.joinToString("\n" ).split("\n\n")
     val regex = Regex("""\d+""")
 

@@ -1,6 +1,6 @@
 import java.util.SortedSet
 
-class DayTwelve(lines: List<String>) {
+class Day12(lines: List<String>) {
 
     companion object {
         var gardenPlotList: List<GardenPlot> = mutableListOf()

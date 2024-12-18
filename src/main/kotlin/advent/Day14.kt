@@ -4,7 +4,7 @@
 
 package advent
 
-class DayFourteen(lines: List<String>) {
+class Day14(lines: List<String>) {
     val robotList = lines.map { line ->
         val startingIndex = line.substring(line.indexOf("p=") + 2, line.indexOf(" ")).split(",").map { it.toInt() }.toMutableList()
         val moveSet = line.substring(line.indexOf("v=") + 2).split(",").map { it.toInt() }.toList()

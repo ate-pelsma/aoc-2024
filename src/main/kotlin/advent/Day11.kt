@@ -1,7 +1,7 @@
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.ConcurrentMap
 
-class DayEleven(input: List<String>) {
+class Day11(input: List<String>) {
     var stoneMap: ConcurrentMap<Long, Long> = ConcurrentHashMap()
 
     init {

@@ -4,7 +4,7 @@
 
 package advent
 
-class DayTwo(lines: List<String>) {
+class Day2(lines: List<String>) {
     private var numberList: List<List<Int>> = lines.map { it.split(" ").map { it.toInt() } }
 
     init {
